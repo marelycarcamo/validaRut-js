@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Validación de Rut</title>
+    <!-- CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="text-center">Validación de Rut</h1>
+                <p class="lead">Ingrese un rut válido:</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="rut" placeholder="Ingrese su rut">
+                    </div>
+                    <button type="submit" class="btn btn-primary" onclick="validarRut(rut)">Validar</button>
+                    <p id="resultado"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- JS de Bootstrap y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Tu archivo JS -->
+    <script src="validaRut.js"></script>
+</body>
+</html>
