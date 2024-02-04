@@ -15,12 +15,13 @@
             <div class="col-md-6">
                 <h1 class="text-center">Validación de Rut</h1>
                 <p class="lead">Ingrese un rut válido:</p>
-                <form onsubmit="event.preventDefault(); validarRut();">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="rut" placeholder="Ingrese su rut">
+                        <input type="text" class="form-control" id="input-rut" placeholder="Ingrese su rut">
                     </div>
-                    <button type="submit" class="btn btn-primary">Validar</button>
-                    <button type="button" class="btn btn-secondary" onclick="limpiar()">Ingresar otro RUT</button>
+                    <button id="bt-validar" type="submit" class="btn btn-primary">Validar</button>
+                    <button id="bt-limpiar" type="button" class="btn btn-secondary">Ingresar otro RUT</button>
+                    
                     <p id="resultado"></p>
                 </form>
             </div>
