@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Validación de Rut</title>
+    <link rel="shortcut icon" href="image/5912.jpg">
+
     <!-- CSS de Bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -13,7 +15,6 @@
             <div class="col-md-6">
                 <h1 class="text-center">Validación de Rut</h1>
                 <p class="lead">Ingrese un rut válido:</p>
-
                 <form onsubmit="event.preventDefault(); validarRut();">
                     <div class="form-group">
                         <input type="text" class="form-control" id="rut" placeholder="Ingrese su rut">
@@ -22,7 +23,6 @@
                     <button type="button" class="btn btn-secondary" onclick="limpiar()">Ingresar otro RUT</button>
                     <p id="resultado"></p>
                 </form>
-
             </div>
         </div>
     </div>
@@ -30,6 +30,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- Mi JS -->
-    <script src="validaRut.js"></script>
+    <script src="js/validaRut.js"></script>
 </body>
 </html>
