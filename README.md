@@ -4,7 +4,7 @@
 
 ## Descripción
 
-<p align='justify'>Este proyecto es un validador de RUT (Rol Único Tributario), el número de identificación nacional de Chile. Fue desarrollado con JavaScript y jQuery, y es perfecto para cualquier aplicación web que necesite validar RUTs.</p>
+Este proyecto es un validador de RUT (Rol Único Tributario), el número de identificación nacional de Chile. Fue desarrollado con JavaScript y jQuery, y es perfecto para cualquier aplicación web que necesite validar RUTs.</p>
 
 ## Funcionalidades
 
