@@ -35,7 +35,7 @@ $('#input-rut').on('input', function () {
 $('#input-dv').on("input", function () {
     var valorInputDV = $(this).val();
     if (!((valorInputDV >=0) && (valorInputDV<=9) || (valorInputDV.toUpperCase()==='K'))){
-        $(this).val('');
+        $(this).val($(this).val().slice(0, 1));
     }
 });
 
@@ -45,7 +45,6 @@ $("#bt-validar").click(function (event) {
 	var inputRut = $("#input-rut").val();
     var inputDv =$('#input-dv').val();
     validarRut(inputRut,inputDv);
-	
 });
 
 // Evento click botón Limpiar. La función "limpiar" limpia el campo de entrada y el resultado
