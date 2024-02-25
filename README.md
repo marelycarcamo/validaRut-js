@@ -1,27 +1,36 @@
-# Validador de RUT
+# Validador de RUT CHILENO
 
-https://marelycarcamo.github.io/validaRut-js/
+<https://marelycarcamo.github.io/validaRut-js/>
 
 ## Descripción
 
-<p align="justify">Este programa es un validador de RUT (Rol Único Tributario), el número de identificación nacional de Chile. El usuario puede ingresar un RUT en el campo de entrada y el programa verificará si el RUT tiene el formato correcto y si el dígito verificador es válido. Los resultados de la validación se muestran en la página.</p>
+<p align='justify'>Este proyecto es un validador de RUT (Rol Único Tributario), el número de identificación nacional de Chile. Fue desarrollado con JavaScript y jQuery, y es perfecto para cualquier aplicación web que necesite validar RUTs.</p>
 
-## Funcionalidad
+## Funcionalidades
 
-<p align="justify">El programa consta de dos partes principales: una página web creada con HTML y CSS, y un script de JavaScript que realiza la validación del RUT.</p>
+El programa tiene las siguientes funcionalidades:
 
-<p align="justify">La página web proporciona una interfaz de usuario donde se puede ingresar un RUT y se muestra el resultado de la validación. También incluye un botón para limpiar el campo de entrada y el resultado, permitiendo al usuario ingresar y validar otro RUT.</p>
+1. **Validación de formato de RUT**: Verifica que el RUT ingresado tenga el formato correcto.
+2. **Validación de dígito verificador**: Calcula y verifica el dígito verificador del RUT.
+3. **Límite de caracteres**: Limita la entrada del número de RUT a un máximo de 8 dígitos.
+4. **Limpieza de campos**: Proporciona un botón para limpiar los campos de entrada y el resultado.
 
-<p align="justify">El script de JavaScript contiene dos funciones principales: <code>validarFormatoRut()</code> y <code>validarRut()</code>. La función <code>validarFormatoRut()</code> verifica si el RUT ingresado tiene el formato correcto. La función <code>validarRut()</code> es responsable de validar el dígito verificador del RUT.</p>
+## Código
 
-## Utilidad para el aprendizaje
-
-<p align="justify">Este programa es un excelente recurso para aprender y practicar HTML, CSS y JavaScript. Permite entender cómo se pueden crear formularios en HTML, cómo se pueden aplicar estilos con CSS y cómo se puede agregar funcionalidad con JavaScript. Además, muestra cómo se pueden realizar operaciones de validación y cómo se pueden manipular los elementos de una página web con JavaScript.</p>
-
-## Detalles del sistema
-
-<p align="justify">El programa se ejecuta en el navegador y no requiere ninguna instalación o configuración especial. Solo necesitas un navegador moderno que soporte HTML5, CSS3 y JavaScript. Se ha probado y funciona correctamente en los navegadores más recientes de Google Chrome, Mozilla Firefox y Microsoft Edge.</p>
+El código principal del programa se encuentra en el archivo `validador.js`. Aquí se definen las funciones para validar el formato del RUT, calcular y verificar el dígito verificador, limitar la longitud de la entrada del RUT, y limpiar los campos.
 
 ## Uso
 
-<p align="justify">Para usar el programa, simplemente abre el archivo <code>index.html</code> en tu navegador. Ingresa un RUT en el campo de entrada y haz clic en el botón "Validar". El resultado de la validación se mostrará en la página.</p>
+Para usar este validador de RUT, simplemente debes ingresar el número de RUT y el dígito verificador en los campos correspondientes y hacer clic en el botón "Validar". Si el RUT es válido, se mostrará un mensaje indicando que el RUT es válido. Si no es válido, se mostrará un mensaje indicando que el RUT no es válido.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna sugerencia, por favor abre un issue. Si quieres contribuir con código, por favor abre un pull request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la licencia MIT.
+
+## Contacto
+
+Si tienes alguna pregunta o comentario, no dudes en contactarme.
