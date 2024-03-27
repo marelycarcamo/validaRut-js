@@ -24,7 +24,7 @@ function validarRut(rut, dvRut) {
 	var elementoResultado = $("#resultado");
 	alert("dv = " + dv);
 	elementoResultado.text(
-		esValido ? "El RUT es válido." : "El RUT NO es válido."
+		esValido ? "El RUT es válido ! 😊" : "El RUT NO es válido ! 🤔"
 	);
 }
 
@@ -63,7 +63,7 @@ $(document).ready(function () {
 		event.preventDefault();
 		$("#input-rut").val("");
 		$("#input-rut").focus();
-		$("#resultado").text("🤔");
+		$("#resultado").text("");
 		$("#input-dv").val("");
 	});
 });
