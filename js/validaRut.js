@@ -63,7 +63,7 @@ $(document).ready(function () {
 		event.preventDefault();
 		$("#input-rut").val("");
 		$("#input-rut").focus();
-		$("#resultado").text("");
+		$("#resultado").text("🤔");
 		$("#input-dv").val("");
 	});
 });
