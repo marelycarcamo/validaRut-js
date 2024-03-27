@@ -29,6 +29,7 @@ function validarRut(rut, dvRut) {
 }
 
 $(document).ready(function () {
+	
 	// Evento input en #input-rut. Valida un máximo de 8 digitos en el numero de rut
 	$("#input-rut").on("input", function () {
 		if ($(this).val().length > 8) {
