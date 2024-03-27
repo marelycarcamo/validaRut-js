@@ -24,11 +24,12 @@ function validarRut(rut, dvRut) {
 	var elementoResultado = $("#resultado");
 	alert("dv = " + dv);
 	elementoResultado.text(
-		esValido ? "El RUT es válido." : "El RUT NO es válido."
+		esValido ? "El RUT es válido ! 😊" : "El RUT NO es válido ! 🤔"
 	);
 }
 
 $(document).ready(function () {
+	
 	// Evento input en #input-rut. Valida un máximo de 8 digitos en el numero de rut
 	$("#input-rut").on("input", function () {
 		if ($(this).val().length > 8) {
